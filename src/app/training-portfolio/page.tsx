@@ -86,42 +86,42 @@ const cardData = [
     title: "TOGAF®",
     description:
       "Earn the most up-to-date TOGAF certification, based on the TOGAF Standard, 10th Edition. Learn with the world’s leading TOGAF training company",
-    icon: "/courses/1.png",
+    icon: "/courses/TOGAF.jpg",
     link: "/courses/togaf-10-training",
   },
   {
     title: "TOGAF® Business Architecture",
     description:
       "Earn your hands-on practical Business Architecture certificate with our expert training",
-    icon: "/courses/2.png",
+    icon: "/courses/TOGAF-Business-Architecture.jpg",
     link: "/courses/togaf-business-architecture",
   },
   {
     title: "IT4IT™",
     description:
       "More than half of all IT4IT certified practitioners were trained by CC&C or one of our traning academy affiliates. We are the gold standard in IT4IT ",
-    icon: "/courses/3.png",
+    icon: "/courses/IT4IT.jpg",
     link: "/courses/it4it-4-2",
   },
   {
     title: "ArchiMate®",
     description:
       "ArchiMate is the preferred modeling language for TOGAF. Along with TOGAF and the right tools, ArchiMate completes the foundation for effective architecture .",
-    icon: "/courses/4.png",
+    icon: "/courses/ArchiMate.jpg",
     link: "/courses/archimate-3-level-1-level-2-certification",
   },
   {
     title: "BIAN Foundation",
     description:
       "CC&C is the only authorised BIAN training provider with a global footprint. Get certified with one of CC&C’s experienced architects and benefit from our practical ",
-    icon: "/courses/5.png",
+    icon: "/courses/BIAN-Foundation.jpg",
     link: "/courses/bian-foundation",
   },
   {
     title: "BIAN Data Architecture and Design",
     description:
       "Learn BIAN Business Object Modelling (BOM) in detail through practical use case",
-    icon: "/courses/6.png",
+    icon: "/courses/BIAN-Data-Architecture-and-Design.jpg",
     link: "/courses//bian-data-architecture-specialist-certification",
   },
   {
@@ -256,7 +256,7 @@ export default function Home() {
         <h2 className="mt-10 text-black font-extrabold text-[56px] text-center leading-[70px] mb-3">
           Explore our Industry Leading courses
         </h2>
-        <div className="grid grid-cols-3  justify-center gap-6 mt-10">
+        <div className="grid grid-cols-3  justify-center gap-9 mt-10">
           {cardData.map((card, index) => (
             <div
               key={index}
@@ -339,7 +339,7 @@ export default function Home() {
                 Post Training Support with Exam Booster Session
               </h3>
             </div>{" "}
-            <div className="shadow w-[548px]  rounded-[8px] mt-[60px] flex flex-col items-center  hed-txth3">
+            <div className="shadow w-[548px]  rounded-[8px] mt-[60px] flex flex-col  hed-txth3">
               <Image
                 src="/courses/map.png"
                 width={548}
@@ -365,7 +365,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-between items-center mt-[64px]">
-            <div className="w-[620px] flex flex-col gap-10">
+            <div className="w-[620px] flex flex-col gap-3 w-full">
               <div className="flex items-start gap-5 ">
                 <Image
                   className="mt-1"
@@ -442,15 +442,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <Image
+            {/* <Image
               className=""
               src="/courses/bian-foundation/learning.png"
               alt="bian"
               width={354}
               height={423}
-            />
+            /> */}
           </div>
-          <div className="mt-20 flex flex-col gap-8 w-full">
+          <div className="mt-3 flex flex-col gap-3 w-full">
             <div className="flex items-center gap-5">
               <Image
                 className=""

@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-[url(/courses/hero.png)] bg-no-repeat w-screen bg-cover bg-center h-screen font-sans">
+      <div className="bg-[url(/courses/hero.png)] bg-no-repeat w-screen bg-cover bg-center  font-sans h-[600px]">
         <div
           className={`flex justify-center items-center fixed w-full z-[999999] transition-transform duration-300 ${
             isVisible ? "block" : "hidden"
@@ -90,7 +90,7 @@ export default function Home() {
 
         <section
           data-aos="fade-up"
-          className="flex flex-col items-center pt-[235px] justify-center text-center hed-txth1"
+          className="flex flex-col items-center pt-[200px] justify-center text-center hed-txth1"
         >
           <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 leading-[90px]">
             Contact Us

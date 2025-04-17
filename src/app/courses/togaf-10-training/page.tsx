@@ -196,7 +196,7 @@ const Page: React.FC = () => {
           <div className="lg:w-[380px] lg:h-[340px] bg-[#0d7dd8] border-[3px] border-[#0C71C3] p-10 rounded-lg flex flex-col gap-5 quick-facts1 " style={{width:"65%"}}>
             <h2 className="text-[20px] text-[#fff]">Want to Upgrade Your TOGAF 9 Certification?</h2>
             <p className="text-[#fff]">TOGAF 9 certified? You can upgrade to TOGAF Practitioner certification with a two-day course and Practitioner exam. Ask us how.</p>
-            <button className="px-5 py-2 bg-[#FF7D33] hover:bg-[#0C71C3] text-white " style={{borderRadius:"30px"}}>GET DETAILS</button>
+            <button className="px-5 py-2 bg-[#FF7D33] hover:bg-[#0C71C3] text-white " style={{borderRadius:"30px", width:"50%"}}>GET DETAILS</button>
           </div>
           <div className="flex flex-col  justify-start items-start lg:max-w-[950px] hed-txth2">
             <h3 className="text-[#262626] font-bold md:text-[30px] text-[30px] text-center " style={{paddingBottom:"25px"}}>Why TOGAF Certification?</h3>

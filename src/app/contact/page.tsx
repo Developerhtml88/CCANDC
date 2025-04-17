@@ -166,30 +166,30 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="contact-info hed-txth4">
                   <Image src="/courses/location-map.png" alt="Contact Us" width={30} height={30} className=" rounded-md w-[40px] h-[40px]" />
-                  <h4 className="pb-2 pt-3">Global Headquarters</h4>
+                  <h4 className="pb-2 pt-3 " style={{color:"#f68827"}}>Global Headquarters</h4>
                   <p><strong>Vish Viswanathan</strong></p>
                   <p>Managing Principal<br /> CC and C Solutions<br /> Australia</p>
                 </div>
                 <div className="contact-info hed-txth4">
                   <Image src="/courses/location-map.png" alt="Contact Us" width={40} height={40} className=" rounded-md w-[40px] h-[40px]" />
-                  <h4 className="pb-2 pt-3">Americas</h4>
+                  <h4 className="pb-2 pt-3 " style={{color:"#f68827"}}>Americas</h4>
                   <p>CC&C Solutions Americas,<br /> Sammamish,<br /> WA 98075</p>
                 </div>
                 <div className="contact-info hed-txth4">
                   <Image src="/courses/location-map.png" alt="Contact Us" width={40} height={40} className=" rounded-md w-[40px] h-[40px]" />
-                  <h4 className="pb-2 pt-3">Europe</h4>
+                  <h4 className="pb-2 pt-3 " style={{color:"#f68827"}}>Europe</h4>
                   <p><strong>Dan Warfield</strong></p>
                   <p>Managing Director<br /> CC&C Europe <br />London</p>
                 </div>
                 <div className="contact-info hed-txth4">
                   <Image src="/courses/location-map.png" alt="Contact Us" width={40} height={40} className=" rounded-md w-[40px] h-[40px]" />
-                  <h4 className="pb-2 pt-3">South East Asia</h4>
+                  <h4 className="pb-2 pt-3 " style={{color:"#f68827"}}>South East Asia</h4>
                   <p><strong>Suresh GP</strong></p>
                   <p>Business Head<br />Singapore</p>
                 </div>
                 <div className="contact-info hed-txth4">
                   <Image src="/courses/location-map.png" alt="Contact Us" width={40} height={40} className=" rounded-md w-[40px] h-[40px]" />
-                  <h4 className="pb-2 pt-3">India</h4>
+                  <h4 className="pb-2 pt-3 " style={{color:"#f68827"}}>India</h4>
                   <p><strong>Ramesh Krishnan</strong></p>
                   <p>Business Head<br /> India </p>
                 </div>

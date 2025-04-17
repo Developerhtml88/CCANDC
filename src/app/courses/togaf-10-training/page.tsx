@@ -140,7 +140,7 @@ const Page: React.FC = () => {
       <section data-aos="fade-up" className="flex flex-col items-center pt-[200px] justify-center text-center px-6 py-20 hed-txth1">
         <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 leading-[90px]">TOGAF® Practitioner</h1>
         <p className="mt-3 text-gray-600 max-w-[1165px] text-[24px]">Based on the Updated TOGAF® Standard, 10th Edition</p>
-        <button className="mt-[30px] flex items-center justify-center  bg-[#0C71C3] text-white w-[280px] py-3 rounded-full text-lg font-semibold shadow-lg transition">
+        <button className="mt-[30px] flex items-center justify-center  bg-[#0C71C3] text-white w-[280px] py-3 rounded-full text-lg font-semibold shadow-lg transition gap-2">
           <span>
             <Image className="" src="/arrow.svg" alt="Arrow Icon" width={40} height={40} />
           </span>

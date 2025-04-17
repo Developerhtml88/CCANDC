@@ -9,6 +9,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "../css/style.css";
 import {
   FaCogs,
   FaBolt,
@@ -415,7 +416,7 @@ export default function Bian() {
           width={300}
           height={300}
         /> */}
-        <div className="justify-center items-center flex flex-col">
+        <div className="justify-center items-center flex flex-col hed-txth1">
           <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 text-center leading-[90px]">
             Future-Proof Your Banking <br />{" "}
             <span className="text-[#F68827]">Architecture With BIAN</span>
@@ -427,7 +428,7 @@ export default function Bian() {
         </div>
       </section>
 
-      <section className=" mx-auto flex w-full flex-col  pt-[120px] justify-center items-center">
+      <section className=" mx-auto flex w-full flex-col  pt-[120px] justify-center items-center hed-txth2">
         {/* <h1 className="text-[40px] max-w-[1440px] text-center text-4xl sm:text-[46px] font-extrabold text-gray-900 leading-[70px]">
           Navigate the complexities of legacy systems <br /> and architecture
           with CC&C Solutions -
@@ -436,15 +437,15 @@ export default function Bian() {
           trusted partners to the world’s <br />
           leading financial institutions.
         </p> */}
-        <h1 className="text-4xl sm:text-[50px] font-extrabold text-gray-900 text-center leading-[70px]">
+        <h2 className="text-4xl sm:text-[50px] font-extrabold text-gray-900 text-center leading-[70px]">
           Navigate the complexities of legacy systems <br /> and architecture
           with CC&C Solutions -
-        </h1>
+        </h2>
         <p className="text-lg font-medium text-center max-w-[600px] mt-6">
           Trusted partners to the world’s leading financial institutions.
         </p>
         <Image
-          className=" w-[1000px] mt-40 rounded"
+          className=" w-[1000px] mt-20 rounded"
           src="/bian/bian.jpeg"
           alt="Company Logo"
           width={1440}
@@ -452,17 +453,17 @@ export default function Bian() {
         />
       </section>
 
-      <section className=" mx-auto flex w-full flex-col  pt-40 justify-center items-center">
-        <h1 className="text-[40px]  text-black/70 max-w-[1440px] text-center text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px]">
+      <section className=" mx-auto flex w-full flex-col  pt-20 justify-center items-center hed-txth2">
+        <h2 className="text-[40px]  text-black/70 max-w-[1440px] text-center text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px]">
           How CC&C helps banks move to a <br /> modern, composable, and agile
           architecture
-        </h1>
+        </h2>
         <p className="text-[19px] text-center mt-10">
           A four-step process using BIAN to simplify and modernize your banking
           architecture
         </p>
         <section className="py-12 flex justify-center items-center  mt-14">
-          <div className="  grid grid-cols-2 items-center gap-[60px] max-w-[1400px]">
+          <div className="  grid grid-cols-2 items-center gap-[60px] max-w-[1400px] hed-txth3 had-li3">
             {trainings.map((training) => (
               <div key={training.id} className="flex gap-10  items-center ">
                 <Image
@@ -473,7 +474,7 @@ export default function Bian() {
                   className="rounded-lg -mt-6 xl:h-[200px] xl:w-[200px]"
                 />
                 <div className="w-full ">
-                  <h3 className="text-[24px] font-semibold">
+                  <h3 className="text-[24px] font-semibold mb-3">
                     {training.title}
                   </h3>
                   <ul className=" text-lg">
@@ -507,10 +508,10 @@ export default function Bian() {
           </div>
         </section>
       </section>
-      <section className="bg-[#0C71C3] flex flex-col justify-center items-center mt-[160px] pb-[120px]">
-        <h1 className="text-[40px]  mt-40 text-white max-w-[1440px] text-center text-4xl sm:text-[56px] font-extrabold  leading-[70px]">
+      <section className="bg-[#0C71C3] flex flex-col justify-center items-center mt-[160px] pb-[120px] hed-txth2">
+        <h2 className="text-[40px]  mt-40 text-white max-w-[1440px] text-center text-4xl sm:text-[56px] font-extrabold  leading-[70px]" style={{color:"#fff"}}>
           CC&C Service Offerings
-        </h1>
+        </h2>
         {/* <p className="text-[20px] mt-6 lg:w-[1066px] text-center text-[#EEEEEE]  leading-[35px]">
           The Financial Services industry is going througha radical
           modernization, simplification, and interoperability renaissance across
@@ -518,7 +519,7 @@ export default function Bian() {
           within your enterprise requires the right architecture experience,
           disciplines, and capabilities
         </p> */}
-        <div className="grid grid-cols-3 justify-center gap-6 mt-40">
+        <div className="grid grid-cols-3 justify-center gap-6 mt-10 hed-txth3">
           {CardData.map((card) => (
             <div
               key={card.id}
@@ -530,12 +531,12 @@ export default function Bian() {
               </div>
 
               {/* Title */}
-              <h3 className="  text-[32px] mt-6 font-extrabold leading-10 text-[#eeeeee] group-hover:text-black transition-all duration-300">
+              <h3 className="  text-[32px] mt-6 font-extrabold leading-10 text-[#eeeeee] group-hover:text-black transition-all duration-300" style={{letterSpacing:"-1px"}}>
                 {card.title}
               </h3>
 
               {/* Description */}
-              <div className=" text-xl leading-[35px]  mt-6 text-[#e0e0e0] group-hover:text-black transition-all duration-300">
+              <div className=" text-xl leading-[35px]  mt-4 text-[#e0e0e0] group-hover:text-black transition-all duration-300">
                 {card.description}
               </div>
 
@@ -576,30 +577,30 @@ export default function Bian() {
           ))}
         </div>
       </section> */}
-      <section className=" mx-auto flex w-full flex-col  pt-40 justify-center items-center">
-        <h1 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
+      <section className=" mx-auto flex w-full flex-col  pt-40 justify-center items-center hed-txth2">
+        <h2 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
           How Does BIAN Deliver Benefit
-        </h1>
+        </h2>
         <div className="max-w-[1440px] mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="bg-white hover:bg-[#F68827] p-10 rounded-tl-3xl  rounded-b-3xl  drop-shadow-xl border flex items-start gap-4 group"
+              className="bg-white hover:bg-[#F68827] p-10 rounded-tl-3xl  rounded-b-3xl  drop-shadow-xl border flex items-start gap-4 group hed-txth3"
             >
               <div className="">{feature.icon}</div>
               <div className="text-[#2A2A2A] group-hover:text-white">
                 <h3 className="text-[25px] font-semibold">{feature.title}</h3>
-                <p className=" text-base mt-2">{feature.description}</p>
+                <p className=" text-base mt-4 group-hover:text-white" style={{paddingTop:"10px"}}>{feature.description}</p>
               </div>
             </div>
           ))}
         </div>
       </section>
-      <section className="flex w-full flex-col pt-40 justify-center items-center">
-        <h1 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
+      <section className="flex w-full flex-col pt-40 justify-center items-center hed-txth2" >
+        <h2 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
           Our BIAN Training
-        </h1>
-        <div className=" px-6 py-10 flex flex-wrap max-w-[1440px]    justify-center w-full gap-6">
+        </h2>
+        <div className=" px-6 py-10 flex flex-wrap max-w-[1440px]    justify-center w-full gap-6 hed-txth3">
           {visibleCourses.map((course) => (
             <div
               key={course.id}
@@ -614,7 +615,7 @@ export default function Bian() {
               />
               <div className="mt-4">
                 <h3 className="text-[24px] font-bold px-6">{course.title}</h3>
-                <p className="text-gray-600 px-6 pb-6 text-lg mt-3">
+                <p className="text-gray-600 px-6 pb-6 text-lg mt-3" style={{paddingTop:"10px"}}>
                   {course.instructor}
                 </p>
                 {/* <div className="flex gap-2 mt-3">
@@ -640,11 +641,11 @@ export default function Bian() {
       </section>
       <section className="flex flex-col items-center justify-center mt-[202px]">
         <div className="md:w-[1128px]">
-          <div className="flex flex-col    w-full ">
-            <h1 className=" text-black font-extrabold text-[56px]">
+          <div className="flex flex-col    w-full hed-txth2 ">
+            <h2 className=" text-black font-extrabold text-[56px]">
               Our Clients
-            </h1>
-            <p className="text-[20px] text-gray-600 mt-6 max-w-[770px] text-justify tracking-tight">
+            </h2>
+            <p className="text-[20px] text-gray-600 mt-6  text-justify tracking-tight">
               As a multinational consultancy, we work with enterprises of all
               sizes, from start-ups to global organizations, not-for-profits to
               government bodies. We are committed to delivering excellent
@@ -760,92 +761,89 @@ export default function Bian() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center mt-[202px]">
-        <h1 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
-          Testimonials
-        </h1>
-        <div className="md:w-[1128px]">
-          <div className="flex items-center justify-between pt-40 w-full ">
-            <h1 className=" text-black font-extrabold  text-[56px]">
-              What our clients say
-            </h1>
-            <button className=" flex items-center gap-2 mt-5 bg-[#0C71C3] text-white  px-6 py-3 rounded-full text-lg font-semibold shadow-lg  transition">
-              VIEW ALL REVIEWS
-            </button>
-          </div>
-          <div className="relative mt-[60px]">
-            <Swiper
-              modules={[Pagination, Navigation]}
-              spaceBetween={0}
-              slidesPerView={1}
-              // pagination={{ clickable: true }}
-              navigation={{
-                nextEl: ".custom-next",
-                prevEl: ".custom-prev",
-              }}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className="px-4 custom-swiper"
-            >
-              {testimonials.map((testimonial, index) => (
-                <SwiperSlide key={index} className="p-4">
-                  <div className="border rounded-xl shadow-lg relative p-6 w-[350px]  border-[#E0E0E0] h-[466px] bg-white">
-                    <h3 className="text-[24px] font-bold">
-                      {testimonial.name}
-                    </h3>
-                    {/* <p className="text-blue-500 text-base">
-                      {testimonial.title}
-                    </p> */}
-                    <p className="text-[#444444] text-lg mt-3">
-                      {testimonial.review}
-                    </p>
-                    <div className="text-yellow-400 absolute bottom-4  w-full flex   mt-10 gap-20">
+      <section className="flex flex-col items-center justify-center " style={{marginTop:"100px"}}>
+              <div className="md:w-[1128px]">
+                <div className="flex items-center justify-between  w-full hed-txth3">
+                  <h3 className=" text-black font-extrabold text-[56px]">
+                    What our clients say
+                  </h3>
+                  <button className=" flex items-center gap-2 mt-5 bg-[#0C71C3] text-white  px-6 py-3 rounded-full text-lg font-semibold shadow-lg  transition">
+                    VIEW ALL REVIEWS
+                  </button>
+                </div>
+                <div className="relative mt-[60px]">
+                  <Swiper
+                    modules={[Pagination, Navigation]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    // pagination={{ clickable: true }}
+                    navigation={{
+                      nextEl: ".custom-next",
+                      prevEl: ".custom-prev",
+                    }}
+                    breakpoints={{
+                      768: { slidesPerView: 2 },
+                      1024: { slidesPerView: 3 },
+                    }}
+                    className="px-4 custom-swiper"
+                  >
+                    {testimonials.map((testimonial, index) => (
+                      <SwiperSlide key={index} className="p-4">
+                        <div className="border rounded-xl shadow-lg p-6 w-[350px]  border-[#E0E0E0] h-[420px] bg-white hed-txth4">
+                          <h4 className="text-[24px] font-bold">
+                            {testimonial.name}
+                          </h4>
+                          <p className="text-blue-500 text-base" style={{color:"#3b82f4"}}>
+                            {testimonial.title}
+                          </p>
+                          <p className="text-[#444444] text-lg mt-3">
+                            {testimonial.review}
+                          </p>
+                          <div className="text-yellow-400 flex justify-between mt-10 space-x-1">
+                            <Image
+                              src={"/kama2.svg"}
+                              alt="star"
+                              width={50}
+                              height={50}
+                            />
+                            <Image
+                              src={"/star.svg"}
+                              alt="star"
+                              width={120}
+                              height={120}
+                            />
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+      
+                  {/* Custom Navigation Buttons */}
+                  <div className="absolute right-0 flex items-center gap-4 mt-10">
+                    <button className="custom-prev  w-[50px] h-[50px] flex justify-center items-center bg-white border border-[#8D8D8D] text-white p-2 rounded-full shadow-lg">
                       <Image
-                        src={"/kama2.svg"}
-                        alt="star"
-                        width={100}
-                        height={100}
+                        src="/arrow-wiper.svg"
+                        alt="arrow"
+                        className="cursor-pointer"
+                        width={20}
+                        height={20}
                       />
+                    </button>
+                    <button className="custom-next   w-[50px] h-[50px] flex justify-center items-center bg-white border border-[#8D8D8D] text-white p-2 rounded-full shadow-lg">
                       <Image
-                        src={"/star.svg"}
-                        alt="star"
-                        width={120}
-                        height={120}
+                        src="/arrow-wiper.svg"
+                        alt="arrow"
+                        className="transform rotate-180 cursor-pointer"
+                        width={20}
+                        height={20}
                       />
-                    </div>
+                    </button>
                   </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                </div>
+              </div>
+            </section>
 
-            {/* Custom Navigation Buttons */}
-            <div className="absolute right-0 flex items-center gap-4 mt-10">
-              <button className="custom-prev  w-[50px] h-[50px] flex justify-center items-center bg-white border border-[#8D8D8D] text-white p-2 rounded-full shadow-lg">
-                <Image
-                  src="/arrow-wiper.svg"
-                  alt="arrow"
-                  className="cursor-pointer"
-                  width={20}
-                  height={20}
-                />
-              </button>
-              <button className="custom-next   w-[50px] h-[50px] flex justify-center items-center bg-white border border-[#8D8D8D] text-white p-2 rounded-full shadow-lg">
-                <Image
-                  src="/arrow-wiper.svg"
-                  alt="arrow"
-                  className="transform rotate-180 cursor-pointer"
-                  width={20}
-                  height={20}
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="max-w-[1440px] mx-auto px-6 py-16  mt-[202px]">
+      <section className="max-w-[1440px] mx-auto px-6 py-16  mt-[202px] hed-txth2">
         <h2 className=" sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/80 text-center mb-10">
           BIAN Insights and Learnings
         </h2>
@@ -854,7 +852,7 @@ export default function Bian() {
           {videoCards.map((video, index) => (
             <div
               key={video.id}
-              className="flex flex-col md:flex-row items-center gap-6 bg-white p-6 rounded-lg shadow-lg"
+              className="flex flex-col md:flex-row items-center gap-6 bg-white p-6 rounded-lg shadow-lg hed-txth3"
             >
               {/* Left: Video Thumbnail */}
               <div className="w-full md:w-1/2">
@@ -872,10 +870,10 @@ export default function Bian() {
                 <h3 className="text-xl font-bold text-black/80">
                   {video.title}
                 </h3>
-                <p className="text-lg text-black/70 mt-2">
+                <p className="text-lg text-black/70 mt-2 " style={{paddingTop:"10px"}}>
                   {video.description}
                 </p>
-                <p className="text-gray-600 text-base mt-2">{video.details}</p>
+                <p className="text-gray-600 text-base mt-2" > {video.details}</p>
 
                 {/* Watch Video Button */}
                 <button

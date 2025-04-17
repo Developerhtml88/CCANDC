@@ -128,21 +128,21 @@ const cardData = [
     title: "BIAN for Integration®",
     description:
       "ArchiMate is the preferred modeling language for TOGAF. Along with TOGAF and the right tools, ArchiMate completes the foundation for effective architecture ",
-    icon: "/courses/4.png",
+    icon: "/courses/BIAN-for-Integration.jpg",
     link: "/courses/bian-for-integration",
   },
   {
     title: "BIAN for Business Analyst",
     description:
       "CC&C is the only authorised BIAN training provider with a global footprint. Get certified with one of CC&C’s experienced architects and benefit from our practical ",
-    icon: "/courses/8.png",
+    icon: "/courses/BIAN-for-Business-Analyst.jpg",
     link: "/courses/bian-for-business-analyst",
   },
   {
     title: "BIAN Business Architects",
     description:
       "Our newest offering for enterprise teams, led by CC&C’s master practitioners",
-    icon: "/courses/9.png",
+    icon: "/courses/BIAN-Business-Architects.jpg",
     link: "/courses/togaf-business-architecture",
   },
 ];
@@ -364,8 +364,8 @@ export default function Home() {
               Effective and Respected Professional
             </p>
           </div>
-          <div className="flex justify-between items-center mt-[64px]">
-            <div className="w-[620px] flex flex-col gap-3 w-full">
+          <div className="flex justify-between items-center mt-[30px]  ">
+            <div className="w-[620px] flex flex-col gap-3 w-full hed-txth3">
               <div className="flex items-start gap-5 ">
                 <Image
                   className="mt-1"
@@ -374,7 +374,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   Customised and fit for purpose course materials to support
                   student learning journey
                 </p>
@@ -387,7 +387,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   Our approach is to make you feel empowered to put your
                   learning into practice
                 </p>
@@ -400,7 +400,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   High success rate with high level of satisfaction
                 </p>
               </div>{" "}
@@ -412,7 +412,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   Post Training Support and Exam Booster Packs
                 </p>
               </div>{" "}
@@ -424,7 +424,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   Available World-wide to suit different time zones
                 </p>
               </div>{" "}
@@ -436,7 +436,7 @@ export default function Home() {
                   width={18}
                   height={18}
                 />
-                <p className="lg:w-[830px] font-medium text-[18px] text-[#EEEEEE]">
+                <p className="lg:w-[830px] font-medium  text-[#EEEEEE]">
                   Culturally sensitive approach facilitates best learning
                   outcome
                 </p>
@@ -459,7 +459,7 @@ export default function Home() {
                 width={18}
                 height={18}
               />
-              <p className="text-[18px] text-[#EEEEEE] font-medium">
+              <p className=" text-[#EEEEEE] font-medium">
                 Core Competence in Enterprise Architecture, IT Architecture,
                 Banking Architecture & Digital Transformation
               </p>
@@ -472,7 +472,7 @@ export default function Home() {
                 width={18}
                 height={18}
               />
-              <p className="text-[18px] text-[#EEEEEE] font-medium">
+              <p className=" text-[#EEEEEE] font-medium">
                 Your instructor will be an experienced practitioner who can
                 bring their hands-on, real-world experience to life
               </p>
@@ -485,7 +485,7 @@ export default function Home() {
                 width={18}
                 height={18}
               />
-              <p className="text-[18px] text-[#EEEEEE] font-medium">
+              <p className="text-[#EEEEEE] font-medium">
                 Dedicated teams to manage and deliver large (bulk) corporate
                 training initiatives – virtual, in-person and on demand
               </p>
@@ -505,7 +505,7 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center gap-2">
               <ul className="  font-medium text-[18px] md:flex md:flex-row md:items-center md:justify-center flex flex-col justify-center items-center md:gap-12 gap-5 list-disc">
                 <li>Talk to our learning team</li>
-                <li>Aks for a quote</li>
+                <li>Ask for a quote</li>
               </ul>
               <ul className=" font-medium text-[18px] list-disc ">
                 <li>Check our next available training</li>
@@ -652,8 +652,8 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center justify-center mt-[202px] pb-20">
         <div className="md:w-[1128px]">
-          <div className="flex flex-col    w-full ">
-            <h2 className=" text-black font-extrabold text-[56px]  hed-txth2">
+          <div className="flex flex-col    w-full hed-txth2">
+            <h2 className=" text-black font-extrabold   ">
               Our Clients
             </h2>
             <p className="text-[20px] text-gray-600 mt-6  text-justify tracking-tight">

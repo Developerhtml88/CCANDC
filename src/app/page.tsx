@@ -217,7 +217,7 @@ export default function Home() {
       </div>
       <section
         data-aos="fade-up"
-        className="flex flex-col items-center  pt-[200px]  justify-center text-center px-6 py-20 hed-txth1"
+        className="flex flex-col items-center  pt-[165px]  justify-center text-center px-6 py-20 hed-txth1"
       >
         <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 leading-[90px]">
           Powering Digital Transformation <br />

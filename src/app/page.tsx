@@ -194,7 +194,7 @@ export default function Home() {
                 { href: "#", label: "Consulting" },
                 { href: "/", label: "BIAN" },
                 { href: "#", label: "Partners" },
-                { href: "/Contact", label: "Contact" },
+                { href: "/contact", label: "Contact" },
             ].map((item) => (
               <Link key={item.href} href={item.href}>
                 <div

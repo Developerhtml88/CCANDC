@@ -939,7 +939,7 @@ export default function Bian() {
             <div className="flex flex-col gap-4 text-[#AAAAAA] text-[18px]">
               <a href="/training-portfolio">Training</a>
               <a href="#">Enquire now</a>
-              <a href="/Contact">Contact us</a>
+              <a href="/contact">Contact us</a>
             </div>
             <div className="flex flex-col gap-2 mt-16">
               <Image

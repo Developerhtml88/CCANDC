@@ -771,7 +771,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 text-[#AAAAAA] text-[18px]">
               <a href="#">Training</a>
               <a href="#">Enquire now</a>
-              <a href="/Contact">Contact us</a>
+              <a href="/contact">Contact us</a>
             </div>
             <div className="flex flex-col gap-1 " style={{marginTop:"30px"}}>
               <Image

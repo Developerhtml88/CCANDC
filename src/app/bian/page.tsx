@@ -462,10 +462,10 @@ export default function Bian() {
           A four-step process using BIAN to simplify and modernize your banking
           architecture
         </p>
-        <section className="py-12 flex justify-center items-center  mt-14">
+        <section className="py-12 flex justify-center items-center  mt-14 serv-sec" >
           <div className="  grid grid-cols-2 items-center gap-[60px] max-w-[1400px] hed-txth3 had-li3">
             {trainings.map((training) => (
-              <div key={training.id} className="flex gap-10  items-center ">
+              <div key={training.id} className="flex gap-5  items-center ">
                 <Image
                   src={training.image}
                   alt={training.title}
@@ -581,7 +581,7 @@ export default function Bian() {
         <h2 className="text-[40px] text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px] text-black/70 max-w-[1440px] text-center">
           How Does BIAN Deliver Benefit
         </h2>
-        <div className="max-w-[1440px] mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="how-does mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature) => (
             <div
               key={feature.id}
@@ -848,7 +848,8 @@ export default function Bian() {
           BIAN Insights and Learnings
         </h2>
 
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 bian-in
+        ">
           {videoCards.map((video, index) => (
             <div
               key={video.id}

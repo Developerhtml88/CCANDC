@@ -388,9 +388,9 @@ export default function Home() {
       </section>
       <section
         data-aos="fade-up"
-        className="flex justify-center items-center  mt-[120px]"
+        className="flex justify-center items-center  mt-[120px] video-sec"
       >
-        <div className="flex items-center gap-20">
+        <div className="flex items-center gap-10">
           <div className="">
             <iframe
               width="560"
@@ -403,7 +403,7 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="w-[672px] flex flex-col items-center hed-txth2">
+          <div className=" flex flex-col items-center hed-txth2">
             <h2 className="text-4xl sm:text-[56px] font-extrabold text-gray-900 leading-[70px]">
               Transform Banking with CC&C Solutions!
             </h2>

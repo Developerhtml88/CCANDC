@@ -144,7 +144,7 @@ const Page: React.FC = () => {
           <span>
             <Image className="" src="/arrow.svg" alt="Arrow Icon" width={40} height={40} />
           </span>
-          View IT4IT™ Calendar
+          View TOGAF® Calendar
         </button>
       </section>
       <section className="mb-10 flex flex-col justify-center items-center gap-10 mt-[100px] lg:w-[1190px] mx-auto">

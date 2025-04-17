@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom Swiper pagination */
+/* .swiper-pagination-bullet {
+    background-color: #3498db !important; 
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    margin-top: 120px !important; 
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff5733 !important; 
+
+  }
+  
+  .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal{
+
+    margin-top: 120px !important; 
+
+  } */
+
+  .quick-fatcs{
+    width: 75% !important;
+  }
+  .quick-fatcs1{
+    width: 60% !important;
+  }

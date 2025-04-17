@@ -1,0 +1,109 @@
+.hed-txth1 h1{
+font-size: 72px;
+font-weight: 700;
+color:#1A1A1A;
+line-height: 96px;
+}
+.hed-txth1 p{
+    font-size: 22px;
+    color: #4F4F4F;
+    line-height: 38px;
+}
+.hed-txth2 h2{
+    font-size: 45px;
+    font-weight: 700;
+    color:#1A1A1A;
+    line-height: 60px;
+    padding-bottom: 20px; 
+}
+.hed-txth2 p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #4F4F4F;
+    margin-top:0px;
+}
+.hed-txth3 h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+ .h3-descb{
+font-size: 16px;
+line-height: 28px;
+}
+.hed-txth4 h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color:#1A1A1A;    
+}
+.hed-txth4 p{
+    font-size: 15px;
+    line-height: 26px;
+    color:#4F4F4F;
+}
+.number-bg{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.cours-boximg img{
+    height: 200px;
+}
+.helping-wd{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.helping-wd button{
+margin: auto;
+margin-top:20px;
+}
+.header-wd{
+    column-gap:80px;
+}
+.fqa-sec button{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.fqa-sec p{
+    font-size:16px;
+    line-height: 28px;
+}
+.button-secs button{
+    padding: 12px 30px !important;
+    border-radius: 30px;
+}
+.contact-frm{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+.contact-info{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact-frm input{
+    font-size: 12px;
+    /* height: 45px; */
+}
+.contact-frm textarea{
+    font-size: 12px;
+    height: 80px;
+}
+.contact-frm .check-btn .terms{
+height: 15px !important;
+}
+.check-btn label{
+    font-size: 12px;
+}
+.contact-frm button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #0c71c3;
+    margin-top:18px;
+}
+.check-btn{
+    margin-bottom: 0px !important;
+}

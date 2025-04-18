@@ -321,7 +321,7 @@ export default function Bian() {
   const videoCards = [
     {
       id: 1,
-      image: "/cc/august24.jpg", // Replace with actual image path
+      image: "/cc/BIAN-Insights1.jpg", // Replace with actual image path
       title: "Learnings and tips for rolling out BIAN in your organization",
       description:
         "Interested in adopting BIAN in your enterprise, and keen to benefit from the learnings of those who have gone before you?",
@@ -331,7 +331,7 @@ export default function Bian() {
     },
     {
       id: 2,
-      image: "/cc/august24.jpg",
+      image: "/cc/BIAN-Insights2.jpg",
       title: "Understanding BIAN Framework for Digital Banking",
       description:
         "Discover how BIAN helps digital banking transformation and enhances interoperability.",
@@ -341,7 +341,7 @@ export default function Bian() {
     },
     {
       id: 3,
-      image: "/cc/august24.jpg",
+      image: "/cc/BIAN-Insights3.jpg",
       title: "BIAN Adoption Case Study: Success Stories",
       description:
         "Learn how banks have successfully adopted BIAN to streamline their systems and improve agility.",
@@ -351,7 +351,7 @@ export default function Bian() {
     },
     {
       id: 4,
-      image: "/cc/august24.jpg",
+      image: "/cc/BIAN-Insights4.jpg",
       title: "Future Trends in Banking with BIAN Standards",
       description:
         "Explore how emerging technologies align with BIAN to shape the future of banking.",

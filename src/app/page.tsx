@@ -173,48 +173,60 @@ export default function Home() {
   return (
     <div className="bg-[url(/bg.png)] bg-cover bg-center  font-sans h-[800px]">
       <div
-        className={`flex justify-center items-center fixed  w-full z-[999999] transition-transform duration-300 ${
-          isVisible ? " block" : "hidden"
-        }`}
-      >
-        <div className="w-full mx-auto flex justify-center items-center h-[88px] relative bg-white shadow-[0px_2px_8px_0px_rgba(0,0,0,0.08)] overflow-hidden header-wd">
-          <Image
-            className="w-[90.49px] h-16"
-            src="/logo.png"
-            alt="Company Logo"
-            width={90.49}
-            height={64}
-          />
+  className={`fixed w-full z-[999999] transition-transform duration-300 ${
+    isVisible ? "block" : "hidden"
+  }`}
+>
+<div
+  className={`fixed w-full z-[999999] transition-transform duration-300 ${
+    isVisible ? "block" : "hidden"
+  }`}
+>
+  <div className="w-full mx-auto grid grid-cols-12 items-center h-[88px] relative bg-white shadow-[0px_2px_8px_0px_rgba(0,0,0,0.08)] overflow-hidden header-wd px-[50px]">
+    <div className="col-span-2 flex justify-center items-center">
+      <Image
+        className="w-[90.49px] h-16"
+        src="/logo.png"
+        alt="Company Logo"
+        width={90.49}
+        height={64}
+      />
+    </div>
 
-          <div className="h-6 inline-flex items-center gap-8">
-            {[
-                { href: "#", label: "About" },
-                { href: "/training-portfolio", label: "Training" },
-                { href: "/", label: "Partners" },
-                { href: "#", label: "Consulting" },
-                { href: "/", label: "BIAN" },
-                { href: "#", label: "Partners" },
-                { href: "/contact", label: "Contact" },
-            ].map((item) => (
-              <Link key={item.href} href={item.href}>
-                <div
-                  className={`relative justify-start text-lg font-normal leading-normal ${
-                    pathname === item.href ? "text-[#0c71c3]" : "text-black"
-                  }`}
-                >
-                  {item.label}
-                </div>
-              </Link>
-            ))}
+    <div className="col-span-8 h-6 inline-flex items-center justify-center gap-8">
+      {[
+        { href: "#", label: "About" },
+        { href: "/training-portfolio", label: "Training" },
+        { href: "/", label: "Partners" },
+        { href: "#", label: "Consulting" },
+        { href: "/", label: "BIAN" },
+        { href: "#", label: "Partners" },
+        { href: "/contact", label: "Contact" },
+      ].map((item) => (
+        <Link key={item.href} href={item.href}>
+          <div
+            className={`relative justify-start text-lg font-normal leading-normal ${
+              pathname === item.href ? "text-[#0c71c3]" : "text-black"
+            }`}
+          >
+            {item.label}
           </div>
+        </Link>
+      ))}
+    </div>
 
-          <div className="h-11 px-5 py-3 bg-[#0c71c3] rounded-[100px] inline-flex justify-center items-center gap-2.5">
-            <div className="relative justify-start text-white text-base font-semibold leading-tight">
-              GET IN TOUCH
-            </div>
-          </div>
+    <div className="col-span-2 flex justify-center items-center">
+      <div className="h-11 px-5 py-3 bg-[#0c71c3] rounded-[100px] inline-flex justify-center items-center gap-2.5">
+        <div className="relative justify-start text-white text-base font-semibold leading-tight text-[15px]">
+          GET IN TOUCH
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
       <section
   data-aos="fade-up"
   className="flex flex-col md:flex-row items-center pt-[165px] justify-center text-center px-6 py-20 hed-txth1 bg-[url(/bg-line.png)] bg-cover bg-center"

@@ -185,16 +185,18 @@ export default function Home() {
           isVisible ? " block" : "hidden"
         }`}
       >
-        <div className="w-full mx-auto flex justify-center header-wd items-center h-[88px] relative bg-white shadow-[0px_2px_8px_0px_rgba(0,0,0,0.08)] overflow-hidden">
-          <Image
-            className="w-[90.49px] h-16"
-            src="/logo.png"
-            alt="Company Logo"
-            width={90.49}
-            height={64}
-          />
-
-          <div className="h-6 inline-flex items-center gap-8">
+      <div className="w-full mx-auto grid grid-cols-12 items-center h-[88px] relative bg-white shadow-[0px_2px_8px_0px_rgba(0,0,0,0.08)] overflow-hidden header-wd px-[50px]">
+          <div className="col-span-2 flex justify-center items-center">
+            <Image
+              className="w-[90.49px] h-16"
+              src="/logo.png"
+              alt="Company Logo"
+              width={90.49}
+              height={64}
+            />
+          </div>
+      
+          <div className="col-span-8 h-6 inline-flex items-center justify-center gap-8">
             {[
               { href: "#", label: "About" },
               { href: "/training-portfolio", label: "Training" },
@@ -203,7 +205,6 @@ export default function Home() {
               { href: "/", label: "BIAN" },
               { href: "#", label: "Partners" },
               { href: "/contact", label: "Contact" },
-               // New menu item
             ].map((item) => (
               <Link key={item.href} href={item.href}>
                 <div
@@ -216,10 +217,12 @@ export default function Home() {
               </Link>
             ))}
           </div>
-
-          <div className="h-11 px-5 py-3 bg-[#0c71c3] rounded-[100px] inline-flex justify-center items-center gap-2.5">
-            <div className="relative justify-start text-white text-base font-semibold leading-tight">
-              GET IN TOUCH
+      
+          <div className="col-span-2 flex justify-center items-center">
+            <div className="h-11 px-5 py-3 bg-[#0c71c3] rounded-[100px] inline-flex justify-center items-center gap-2.5">
+              <div className="relative justify-start text-white text-base font-semibold leading-tight text-[15px]">
+                GET IN TOUCH
+              </div>
             </div>
           </div>
         </div>

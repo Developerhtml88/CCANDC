@@ -216,40 +216,44 @@ export default function Home() {
         </div>
       </div>
       <section
-        data-aos="fade-up"
-        className="flex flex-col items-center  pt-[165px]  justify-center text-center px-6 py-20 hed-txth1"
-      >
-        <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 leading-[90px]">
-          Powering Digital Transformation <br />
-          Through{" "}
-          <span className="text-[#F68827]">World-Class Architecture</span>
-          {/* <span className="text-[#F68827]">
-            <Typewriter
-              words={[" "]}
-              loop={false}
-              cursor
-              typeSpeed={80}
-              deleteSpeed={50}
-            />
-          </span> */}
-        </h1>
-        <p className="mt-5 text-gray-600 max-w-[787px] text-[24px] ">
-          CC&C has been helping the largest companies get architecture right
-          for almost 20 years
-        </p>
-        <button className="mt-[35px] flex items-center gap-2 bg-[#0C71C3] text-white  w-[202px] py-3 rounded-full text-lg font-semibold shadow-lg  transition">
-          <span>
-            <Image
-              className="ml-4 "
-              src="/arrow.svg"
-              alt="Company Logo"
-              width={40}
-              height={40}
-            />
-          </span>{" "}
-          TALK TO US
-        </button>
-      </section>
+  data-aos="fade-up"
+  className="flex flex-col md:flex-row items-center pt-[165px] justify-center text-center px-6 py-20 hed-txth1 bg-[url(/bg-line.png)] bg-cover bg-center"
+>
+  <div className="md:w-8/12 px-4 powrig-h1">
+    <h1 className="text-4xl sm:text-[72px] font-extrabold text-gray-900 leading-[90px]">
+      Powering Digital Transformation <br />
+      Through{" "}
+      <span className="text-[#F68827]">World-Class Architecture</span>
+    </h1>
+    <p className="mt-5 text-gray-600 max-w-[787px] text-[24px]">
+      CC&C has been helping the largest companies get architecture right
+      for almost 20 years
+    </p>
+    <button className="mt-[35px] flex items-center gap-2 bg-[#0C71C3] text-white w-[202px] py-3 rounded-full text-lg font-semibold shadow-lg transition">
+      <span>
+        <Image
+          className="ml-4"
+          src="/arrow.svg"
+          alt="Company Logo"
+          width={40}
+          height={40}
+        />
+      </span>{" "}
+      TALK TO US
+    </button>
+  </div>
+  <div className="md:w-4/12 px-4 mt-10 md:mt-0">
+    <Image
+      src="/courses/right-image.png"
+      className="rounded-3xl"
+      alt="Company Logo"
+      width={524}
+      height={572}
+    />
+  </div>
+</section>
+
+
       <section
         data-aos="fade-up"
         className="flex justify-center items-center " style={{marginTop:"100px"}}>

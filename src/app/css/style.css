@@ -132,3 +132,16 @@ height: 15px !important;
     width:90%;
     margin:auto;
 }
+.home-bg{
+background-image: url(/public/courses/bg-line.png) no-repeat;
+    background-size: cover;
+    
+}
+.powrig-h1 h1{
+    font-size: 45px !important;
+    line-height: 60px !important;
+    text-align: left !important;
+}
+.powrig-h1 p{
+    text-align: left !important;
+}
